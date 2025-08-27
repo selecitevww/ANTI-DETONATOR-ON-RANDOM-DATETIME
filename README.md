@@ -11,3 +11,5 @@ UP
 FIND
 charset 
 DELETE SYMBOL 9 (HIGHER YEAR) BUG
+EXAMPLE: (not valid) 
+29-02-2033
