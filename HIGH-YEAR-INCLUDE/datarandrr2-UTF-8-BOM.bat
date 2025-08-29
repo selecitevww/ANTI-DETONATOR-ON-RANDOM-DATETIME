@@ -1,8 +1,12 @@
-﻿@echo off
+@echo off
+
+REM      BATCH FILE
 
 chcp 65001
 
+cls
 
+color 70
 setlocal EnableDelayedExpansion
 
 :loop
@@ -654,4 +658,5 @@ IF %sar1% GTR %sar2% (
 ) ELSE IF %sar1% LSS %sar2% (
     ECHO %sar1% меньше %sar2%.
 ) 
+
 goto loop
